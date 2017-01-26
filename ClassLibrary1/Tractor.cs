@@ -6,47 +6,46 @@ using System.Threading.Tasks;
 
 namespace LittleJokes
 {
-    class PaqueteProducto
+    class Tractor
     {
-        private int idAplicacion;
-        private string idProducto, dosis;
+        private String idTractor, marca, descripcion;
 
-        public string Dosis
+        public string Descripcion
         {
             get
             {
-                return dosis;
+                return descripcion;
             }
 
             set
             {
-                dosis = value;
+                descripcion = value;
             }
         }
 
-        public int IdAplicacion
+        public string IdTractor
         {
             get
             {
-                return idAplicacion;
+                return idTractor;
             }
 
             set
             {
-                idAplicacion = value;
+                idTractor = value;
             }
         }
 
-        public string IdProducto
+        public string Marca
         {
             get
             {
-                return idProducto;
+                return marca;
             }
 
             set
             {
-                idProducto = value;
+                marca = value;
             }
         }
     }

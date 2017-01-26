@@ -4,9 +4,9 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace ClassLibrary1
+namespace LittleJokes
 {
-    public class Bloque
+    class Bloque
     {
         private String idBloque, idLote, area;
         private int posicion;

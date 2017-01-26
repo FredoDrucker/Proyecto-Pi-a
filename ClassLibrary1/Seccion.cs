@@ -6,12 +6,24 @@ using System.Threading.Tasks;
 
 namespace LittleJokes
 {
-    class Lote
+    class Seccion
     {
-        private string idLote, semilla;
-        private int ciclo;
-        private double area;
-        private DateTime fecha;
+        private string idSeccion, idLote, idBloque;
+        private Double area, numPlantas;
+        private int posicion;
+
+        public string IdSeccion
+        {
+            get
+            {
+                return idSeccion;
+            }
+
+            set
+            {
+                idSeccion = value;
+            }
+        }
 
         public string IdLote
         {
@@ -26,29 +38,16 @@ namespace LittleJokes
             }
         }
 
-        public string Semilla
+        public string IdBloque
         {
             get
             {
-                return semilla;
+                return idBloque;
             }
 
             set
             {
-                semilla = value;
-            }
-        }
-
-        public int Ciclo
-        {
-            get
-            {
-                return ciclo;
-            }
-
-            set
-            {
-                ciclo = value;
+                idBloque = value;
             }
         }
 
@@ -65,16 +64,29 @@ namespace LittleJokes
             }
         }
 
-        public DateTime Fecha
+        public double NumPlantas
         {
             get
             {
-                return fecha;
+                return numPlantas;
             }
 
             set
             {
-                fecha = value;
+                numPlantas = value;
+            }
+        }
+
+        public int Posicion
+        {
+            get
+            {
+                return posicion;
+            }
+
+            set
+            {
+                posicion = value;
             }
         }
     }
