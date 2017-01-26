@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace ClassLibrary1
 {
-    class Bloque
+    public class Bloque
     {
         private String idBloque, idLote, area;
         private int posicion;
